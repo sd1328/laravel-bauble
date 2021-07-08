@@ -1,0 +1,31 @@
+{
+  "name": "sd1328/laravel-bauble",
+  "type": "library",
+  "description": "Useful little things for Laravel",
+  "keywords": ["library", "php", "laravel"],
+  "license": "Apache-2.0",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Aleksey Gudz",
+      "email": "sd1328@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "laravel/framework": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sd1328\\Laravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Sd1328\\LaravelTests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
