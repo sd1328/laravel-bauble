@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
  * Class AbstractModel
  * Класс нужен для реализации AbstractCriteria
  */
-abstract class AbstractModel
+abstract class AbstractModel extends Model
 {
     /**
      * @return array
