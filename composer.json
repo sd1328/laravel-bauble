@@ -4,7 +4,7 @@
   "description": "Useful little things for Laravel",
   "keywords": ["library", "php", "laravel"],
   "license": "Apache-2.0",
-  "version": "1.0",
+  "version": "1.02",
   "authors": [
     {
       "name": "Aleksey Gudz",
